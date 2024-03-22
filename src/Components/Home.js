@@ -1,6 +1,7 @@
 import React from "react";
 
-export const Home = () => {
+export const Home = (props) => {
+    console.log("props" , props)
     return (
         <>
 
@@ -22,7 +23,7 @@ export const Home = () => {
                 </div>
 
                 <div>
-                    <button className="button">Add to cart</button>
+                    <button onClick={() =>props.addToCartHandler({ name:"Samsung" , price:1000})} className="button">Add to cart</button>
                 </div>
 
             </div>

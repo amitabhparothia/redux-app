@@ -13,6 +13,23 @@
   display: flex;
   justify-content: space-between;
 }
+
+.add-to-cart-img{
+  display: flex;
+  position: relative;
+  padding-left: 1220px;
+}
+
+.add-to-cart-no{
+  font-size: 25px;
+  font-family: monospace;
+  position: absolute;
+  right:0;
+  margin-right: 29px;
+  margin-top: 10px;
+}
+
+
 .shoping {
   width: 600px;
   display: flex;

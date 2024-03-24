@@ -6,9 +6,9 @@ const mapStateToProp = state => ({
     data:state.carditem
 })
 
-const mapdispatchToProp = dispatch => ({
+// const mapdispatchToProp = dispatch => ({
 
-})
+// })
 
-export default connect(mapStateToProp , mapdispatchToProp)(navbar)
+export default connect(mapStateToProp )(navbar)
 
